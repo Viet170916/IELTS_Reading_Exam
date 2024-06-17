@@ -1,0 +1,35 @@
+.write{
+    max-height: 537px;
+    position: relative;
+    display: block;
+    overflow-y: auto;
+    border-radius: 12px;
+}
+
+.textBox{
+    font-family: monospace !important;
+}
+
+.each-text-box{
+    position: static;
+    justify-content: center;
+    display: inline-block;
+}
+
+.write ul li div{
+    display: inline-block;
+}
+
+.write ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 0;
+}
+
+.form__input{
+    margin: 1px 8px 0 8px;
+}
+

@@ -1,0 +1,160 @@
+.quesList {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    align-items: center;
+    z-index: 10;
+}
+
+.roundSelectQuesBox {
+    position: absolute;
+    display: flex;
+    width: max-content;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.selectQuesBox {
+    user-select: none;
+    width: fit-content !important;
+    padding: 0 8px 0 8px !important;
+    height: 20px !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 10px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.active {
+    color: #6D5DFCFF !important;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white) !important;
+}
+
+.answerBlock {
+    top: 120px;
+    /*bottom: 90px;*/
+    position: absolute;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    left: calc(50% + 40px);
+    flex-direction: row;
+    right: 20px;
+}
+
+.questionTag {
+    display: flex;
+    border-radius: 10px;
+    height: fit-content;
+    margin: 20px 0 17px 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    background: linear-gradient(to right, #24243e, #302b63);
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.quesBox {
+    display: block;
+    position: relative;
+    height: fit-content;
+    margin-left: 20px;
+}
+
+.ansBox {
+    display: block;
+    border-radius: 10px;
+    position: page;
+    top: 30px;
+    /*height: 300px;*/
+    margin: 0 0 0 20px;
+    /*font-weight: bold;*/
+    /*font-size: 30px;*/
+    color: rgba(12, 18, 27, 0.67);
+
+    text-shadow: 0.08rem 0.08rem 0.12rem var(--greyLight-2), -0.08rem -0.08rem 0.12rem var(--white);;
+
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    /*padding-bottom: 20px;*/
+}
+
+.answerBlock .background {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.disappear {
+    box-shadow: none!important;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);;
+    height: 0!important;
+    padding: 0;
+    transition: 1s ease-in-out;
+}
+
+.ansBox2 {
+    height: 600px;
+}
+
+.quesList .select-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-right: 10px;
+    height: 50px;
+    overflow-x: auto;
+    margin-left: 10px;
+    scrollbar-width: none;
+}
+
+.quesList .select-area::-webkit-scrollbar {
+    display: none;
+}
+
+.quesList .submit-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.submit-button {
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #0b121c;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inner-ques-box{
+    padding: 20px;
+    max-height: 567px;
+}

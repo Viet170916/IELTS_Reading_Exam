@@ -1,0 +1,25 @@
+.drag2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.texArea2 {
+    position: relative;
+    padding: 10px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.height-400 {
+    height: 400px;
+}
+
+.text-area {
+    overflow-y: auto;
+    position: absolute;
+    height: 400px;
+    right: 5px;
+    left: 10px;
+    border-radius: 10px;
+}

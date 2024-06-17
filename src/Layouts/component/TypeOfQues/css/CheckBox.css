@@ -1,0 +1,21 @@
+.check-box{
+    display: block;
+    margin: 20px;
+    /*height: 260px;*/
+}
+.check-box .each-check-box{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.check-box .each-check-box p{
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.check-box .each-check-box input{
+    background-color: #243b54;
+    scale: 1.2;
+}
+.check-box .each-check-box input:checked ~ .checkmark {
+    background-color: #2196F3;
+}

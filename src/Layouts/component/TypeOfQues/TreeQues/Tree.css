@@ -1,0 +1,41 @@
+.body-tree{
+    display: grid;
+    justify-items: center;
+}
+.node{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    min-height: 70px;
+    min-width: 300px;
+    height: max-content!important;
+    padding: 15px;
+    margin: 10px;
+}
+.body-tree2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+}
+.content-node{
+    display: list-item;
+    list-style-type: none;
+
+
+    justify-content: center;
+
+}
+@media (max-width: 1600px) {
+    .node{
+        min-width: 200px;
+        font-size: 12px;
+        min-height: 30px;
+    }
+}
+@media (max-width: 1270px) {
+    .node{
+        min-width: 100px;
+        font-size: 12px;
+        min-height: 30px;
+    }
+}

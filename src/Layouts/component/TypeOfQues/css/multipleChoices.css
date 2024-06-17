@@ -1,0 +1,12 @@
+.multiChoice{
+    display: block;
+    position: relative;
+    margin: 10px;
+}
+
+.multiChoice .checkBox{
+     display: flex;
+    position: page;
+    margin: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.drag{
+    width: auto;
+    display: block;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    margin: 10px;
+}
+.height-300{
+    height: 300px;
+}
+.height-190{
+    height: 190px;
+}
+.drag-box-content{
+    display: block;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    margin: 20px 20px 0 20px;
+    overflow-y: auto;
+}
+.drag-box{
+    float: left;
+    position: page;
+    height: content-box;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+}
+.ans-box{
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3px;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.ans-box-child{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    width: content-box;
+    height: content-box;
+    margin: 3px;
+}
+.card2{
+    color: #2e2869;
+    height: fit-content !important;
+    width: fit-content !important;
+    font-weight: bold;
+}
+.card2:hover{
+    color: rgba(109, 93, 252, 0.76);
+}
+.drop{
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.default-content-drag{
+    color: rgb(189, 189, 189);
+    font-family: monospace !important;
+    font-weight: bolder;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+

@@ -1,0 +1,48 @@
+.answerBlock{
+    top: 120px;
+    position: absolute;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    left: calc(50% + 40px);
+    flex-direction: row;
+    right: 20px;
+}
+.questionTag{
+    display: flex;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.questionBox{
+    display:block;
+    border-radius: 10px;
+    position: page;
+    top: 30px;
+    height: 250px;
+    margin: 20px;
+    background-color: dimgrey;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+.answerBlock .background{
+    display:block;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.disappear{
+    height: 30px;
+    transition: 0.5s ease-in-out;
+}
+@media (max-width: 740px) {
+    .answerBlock{
+        position: relative;
+        left: calc(50% + 40px);
+        width: 100%;
+        height: 300px;
+    }
+}

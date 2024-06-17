@@ -1,0 +1,43 @@
+.quesBlock {
+    width: calc(50%);
+    top: 120px;
+    bottom: 90px;
+    position: fixed;
+    display: block;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    text-align: left;
+    overflow: hidden;
+    padding: 20px
+}
+
+.quesBlock .content {
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    overflow-y: auto;
+}
+
+.quesBlock .content .content-child {
+    border-radius: 12px;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    overflow-y: auto;
+}
+@media (max-width: 740px) {
+    .quesBlock{
+        height: 400px;
+    }
+}
+
+
+
